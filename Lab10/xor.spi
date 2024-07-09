@@ -1,0 +1,23 @@
+***lab10***
+
+***XOR***
+.subckt	XOR	A B Y VDD GND
+
+MpMos1	A2	A	VDD	VDD	p_18	W=1u	L=0.18u
+MnMos2	A2	A	GND	GND	n_18	W=0.5u	L=0.18u
+
+MpMos3	B2	B	VDD	VDD	p_18	W=1u	L=0.18u
+MnMos4	B2	B	GND	GND	n_18	W=0.5u	L=0.18u
+
+MpA1 S1 A  VDD VDD p_18	W=1u L=0.18u
+MPA2 S2 A2 VDD VDD p_18	W=1u L=0.18u
+MpB1 Y  B  S2  VDD p_18	W=1u L=0.18u
+MpB2 Y  B2 S1  VDD p_18	W=1u L=0.18u
+
+MnA11 Y  A  S3  GND n_18	W=0.5u L=0.18u
+MnA22 S3 A2 GND GND n_18	W=0.5u L=0.18u
+MnB11 S3 B  GND GND n_18	W=0.5u L=0.18u
+MnB22 Y  B2 S3  GND n_18	W=0.5u L=0.18u
+
+
+.ends

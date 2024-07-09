@@ -1,0 +1,32 @@
+**half_adder**
+.subckt	halfadder	A B C S VDD GND
+**XOR A B S VDD GND**
+
+MpMos1	A2	A	VDD	VDD	p_18	W=1u	L=0.18u
+MnMos2	A2	A	GND	GND	n_18	W=0.5u	L=0.18u
+
+MpMos3	B2	B	VDD	VDD	p_18	W=1u	L=0.18u
+MnMos4	B2	B	GND	GND	n_18	W=0.5u	L=0.18u
+
+MpA1 S1 A   VDD VDD p_18	W=1u L=0.18u
+MPA2 S2 A2  VDD VDD p_18	W=1u L=0.18u
+MpB1 S B   S2  VDD p_18	W=1u L=0.18u
+MpB2 S B2  S1  VDD p_18	W=1u L=0.18u
+
+MnA11 S A   S3  GND n_18	W=0.5u L=0.18u
+MnA22 S3 A2  GND GND n_18	W=0.5u L=0.18u
+MnB11 S3 B   GND GND n_18	W=0.5u L=0.18u
+MnB22 S B2  S3  GND n_18	W=0.5u L=0.18u
+
+
+**AND (NAND+inv) A B C VDD GND**
+MpMos	C	F	VDD	VDD	p_18	W=1u	L=0.18u
+MnMos	C	F	GND	GND	n_18	W=0.5u	L=0.18u
+
+**NAND A B F VDD GND**
+MpA	F	A	VDD	VDD	p_18	W=1u	L=0.18u
+MpB	F	B	VDD	VDD	p_18	W=1u	L=0.18u
+MnA	F	A	as	GND	n_18	W=0.5u	L=0.18u
+MnB	as	B	GND	GND	n_18	W=0.5u	L=0.18u
+
+.ends

@@ -1,0 +1,56 @@
+* File: ha.pex.netlist
+* Created: Mon May 27 13:36:00 2024
+* Program "Calibre xRC"
+* Version "v2017.4_19.14"
+* 
+.include "ha.pex.netlist.pex"
+.subckt halfadder  A B C S VDD GND
+* 
+* C	C
+* GND	GND
+* VDD	VDD
+* B	B
+* D	D
+* A	A
+MnMos2 N_A2_MnMos2_d N_A_MnMos2_g N_GND_MnMos2_s N_GND_MnMos2_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+MnB11 N_S_MnB11_d N_B_MnB11_g N_noxref_8_MnB11_s N_GND_MnMos2_b N_18 L=1.8e-07
++ W=5e-07 AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+MnA22 N_S_MnA22_d N_A2_MnA22_g N_noxref_8_MnA22_s N_GND_MnMos2_b N_18 L=1.8e-07
++ W=5e-07 AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+MnA11 N_noxref_8_MnA11_d N_A_MnA11_g N_GND_MnA11_s N_GND_MnMos2_b N_18 L=1.8e-07
++ W=5e-07 AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+MnB22 N_noxref_8_MnB22_d N_B2_MnB22_g N_GND_MnB22_s N_GND_MnMos2_b N_18
++ L=1.8e-07 W=5e-07 AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+MnMos4 N_B2_MnMos4_d N_B_MnMos4_g N_GND_MnMos4_s N_GND_MnMos2_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+MnB N_AS_MnB_d N_B_MnB_g N_GND_MnB_s N_GND_MnMos2_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+MnA N_F_MnA_d N_A_MnA_g N_AS_MnA_s N_GND_MnMos2_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+MnMos N_C_MnMos_d N_F_MnMos_g N_GND_MnMos_s N_GND_MnMos2_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+MpMos1 N_A2_MpMos1_d N_A_MpMos1_g N_VDD_MpMos1_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+MpB1 N_noxref_5_MpB1_d N_B_MpB1_g N_VDD_MpB1_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+MPA2 N_S_MPA2_d N_A2_MPA2_g N_noxref_5_MPA2_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+MpA1 N_S_MpA1_d N_A_MpA1_g N_noxref_7_MpA1_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+MpB2 N_noxref_7_MpB2_d N_B2_MpB2_g N_VDD_MpB2_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+MpMos3 N_B2_MpMos3_d N_B_MpMos3_g N_VDD_MpMos3_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+MpB N_F_MpB_d N_B_MpB_g N_VDD_MpB_s N_VDD_MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+MpA N_F_MpA_d N_A_MpA_g N_VDD_MpA_s N_VDD_MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+MpMos N_C_MpMos_d N_F_MpMos_g N_VDD_MpMos_s N_VDD_MpMos1_b P_18 L=1.8e-07
++ W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+*
+.include "ha.pex.netlist.HA.pxi"
+*
+.ends
+*
+*

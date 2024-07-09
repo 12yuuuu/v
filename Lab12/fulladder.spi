@@ -1,0 +1,15 @@
+***Lab12_FA***
+.include "inv.spi"
+.include "ha.spi"
+.include "nor.spi"
+.subckt fulladder A B C S COUT VDD GND
+	*halfadder 	X 		Y 		S 		C  		VDD 	GND
+	Xha1		A		B		net1	net2	VDD		GND		halfadder
+	Xha2		net1	C		S		net3	VDD		GND		halfadder
+	
+	*nor 	C 		D 		F 		VDD		GND	
+	Xnor	net3	net2	net4	VDD		GND		nor
+	
+	*inv	vin 	vout 	VDD 	GND	
+	Xinv	net4	Cout	VDD		GND		inv
+.ends

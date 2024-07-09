@@ -1,0 +1,281 @@
+* File: RCA.pex.netlist.RCA.pxi
+* Created: Fri May 26 23:41:37 2023
+* 
+x_PM_RCA%GND N_GND_Xadder4/MnA011_b N_GND_Xadder4/MnB011_s
++ N_GND_Xadder1/MnB011_s N_GND_Xadder4/MnB033_s N_GND_Xadder1/MnB033_s
++ N_GND_Xadder4/MnMos2_s N_GND_Xadder4/MnA22_s N_GND_Xadder4/MnB11_s
++ N_GND_Xadder4/MnMos4_s N_GND_Xadder1/MnMos4_s N_GND_Xadder1/MnB11_s
++ N_GND_Xadder1/MnA22_s N_GND_Xadder1/MnMos2_s N_GND_Xadder4/MnA022_s
++ N_GND_Xadder1/MnA022_s N_GND_Xadder4/MnMos222_s N_GND_Xadder4/MnA2222_s
++ N_GND_Xadder4/MnB1111_s N_GND_Xadder4/MnMos444_s N_GND_Xadder1/MnMos444_s
++ N_GND_Xadder1/MnB1111_s N_GND_Xadder1/MnA2222_s N_GND_Xadder1/MnMos222_s
++ N_GND_Xadder4/MnB3333_s N_GND_Xadder1/MnB3333_s N_GND_Xadder3/MnB3333_s
++ N_GND_Xadder2/MnB3333_s N_GND_Xadder3/MnMos222_s N_GND_Xadder3/MnA2222_s
++ N_GND_Xadder3/MnB1111_s N_GND_Xadder3/MnMos444_s N_GND_Xadder2/MnMos444_s
++ N_GND_Xadder2/MnB1111_s N_GND_Xadder2/MnA2222_s N_GND_Xadder2/MnMos222_s
++ N_GND_Xadder3/MnA022_s N_GND_Xadder2/MnA022_s N_GND_Xadder3/MnMos2_s
++ N_GND_Xadder3/MnA22_s N_GND_Xadder3/MnB11_s N_GND_Xadder3/MnMos4_s
++ N_GND_Xadder2/MnMos4_s N_GND_Xadder2/MnB11_s N_GND_Xadder2/MnA22_s
++ N_GND_Xadder2/MnMos2_s N_GND_Xadder3/MnB033_s N_GND_Xadder2/MnB033_s
++ N_GND_Xadder3/MnB011_s N_GND_Xadder2/MnB011_s GND PM_RCA%GND
+x_PM_RCA%B3 B3 N_B3_Xadder4/MpB1_g N_B3_Xadder4/MnB11_g N_B3_Xadder4/MpMos3_g
++ N_B3_Xadder4/MnB011_g N_B3_Xadder4/MpB01_g N_B3_Xadder4/MnA033_g
++ N_B3_Xadder4/MpA03_g N_B3_Xadder4/MnMos4_g PM_RCA%B3
+x_PM_RCA%B0 N_B0_Xadder1/MpMos3_g N_B0_Xadder1/MpB1_g N_B0_Xadder1/MnB11_g
++ N_B0_Xadder1/MpB01_g N_B0_Xadder1/MnB011_g N_B0_Xadder1/MpA03_g
++ N_B0_Xadder1/MnA033_g N_B0_Xadder1/MnMos4_g B0 PM_RCA%B0
+x_PM_RCA%XADDER4/TS N_XADDER4/TS_Xadder4/MpB1_d N_XADDER4/TS_Xadder4/MpB2_d
++ N_XADDER4/TS_Xadder4/MnB22_d N_XADDER4/TS_Xadder4/MnA11_d
++ N_XADDER4/TS_Xadder4/MnMos222_g N_XADDER4/TS_Xadder4/MnA1111_g
++ N_XADDER4/TS_Xadder4/MpMos111_g N_XADDER4/TS_Xadder4/MpA111_g
++ PM_RCA%XADDER4/TS
+x_PM_RCA%XADDER1/TS N_XADDER1/TS_Xadder1/MpB2_d N_XADDER1/TS_Xadder1/MpB1_d
++ N_XADDER1/TS_Xadder1/MnA11_d N_XADDER1/TS_Xadder1/MnB22_d
++ N_XADDER1/TS_Xadder1/MnA1111_g N_XADDER1/TS_Xadder1/MnMos222_g
++ N_XADDER1/TS_Xadder1/MpMos111_g N_XADDER1/TS_Xadder1/MpA111_g
++ PM_RCA%XADDER1/TS
+x_PM_RCA%C3 N_C3_Xadder3/MpA333_d N_C3_Xadder3/MpB333_d N_C3_Xadder3/MpC333_d
++ N_C3_Xadder3/MnA3333_d N_C3_Xadder4/MnB033_g N_C3_Xadder4/MpB03_g
++ N_C3_Xadder4/MnB022_g N_C3_Xadder4/MpB02_g N_C3_Xadder4/MnB1111_g
++ N_C3_Xadder4/MpB111_g N_C3_Xadder4/MnMos444_g N_C3_Xadder4/MpMos333_g
++ PM_RCA%C3
+x_PM_RCA%C0 N_C0_Xadder1/MpB03_g N_C0_Xadder1/MnB033_g N_C0_Xadder1/MpB02_g
++ N_C0_Xadder1/MnB022_g N_C0_Xadder1/MnMos444_g N_C0_Xadder1/MnB1111_g
++ N_C0_Xadder1/MpB111_g N_C0_Xadder1/MpMos333_g C0 PM_RCA%C0
+x_PM_RCA%XADDER4/ACO N_XADDER4/ACO_Xadder4/MpA02_d N_XADDER4/ACO_Xadder4/MpB02_d
++ N_XADDER4/ACO_Xadder4/MnB022_d N_XADDER4/ACO_Xadder4/MnB3333_g
++ N_XADDER4/ACO_Xadder4/MpB333_g PM_RCA%XADDER4/ACO
+x_PM_RCA%XADDER1/ACO N_XADDER1/ACO_Xadder1/MpA02_d N_XADDER1/ACO_Xadder1/MpB02_d
++ N_XADDER1/ACO_Xadder1/MnB022_d N_XADDER1/ACO_Xadder1/MpB333_g
++ N_XADDER1/ACO_Xadder1/MnB3333_g PM_RCA%XADDER1/ACO
+x_PM_RCA%A3 N_A3_Xadder4/MpMos1_g N_A3_Xadder4/MpA1_g N_A3_Xadder4/MnA011_g
++ N_A3_Xadder4/MpA01_g N_A3_Xadder4/MnMos2_g N_A3_Xadder4/MnA11_g
++ N_A3_Xadder4/MnA022_g N_A3_Xadder4/MpA02_g A3 PM_RCA%A3
+x_PM_RCA%A0 N_A0_Xadder1/MpA1_g N_A0_Xadder1/MpMos1_g N_A0_Xadder1/MpA01_g
++ N_A0_Xadder1/MnA011_g N_A0_Xadder1/MnMos2_g N_A0_Xadder1/MnA11_g
++ N_A0_Xadder1/MpA02_g N_A0_Xadder1/MnA022_g A0 PM_RCA%A0
+x_PM_RCA%VDD N_VDD_Xadder4/MpMos1_b N_VDD_Xadder1/MpMos3_b N_VDD_Xadder4/MpA01_b
++ N_VDD_Xadder1/MpA01_b N_VDD_Xadder4/MpB333_b N_VDD_Xadder4/MpMos111_b
++ N_VDD_Xadder1/MpMos333_b N_VDD_Xadder3/MpA333_b N_VDD_Xadder3/MpA02_b
++ N_VDD_Xadder2/MpA02_b N_VDD_Xadder3/MpMos1_b N_VDD_Xadder2/MpMos3_b
++ N_VDD_Xadder4/MpA01_s N_VDD_Xadder1/MpA01_s N_VDD_Xadder4/MpMos1_s
++ N_VDD_Xadder4/MPA2_s N_VDD_Xadder4/MpA1_s N_VDD_Xadder4/MpMos3_s
++ N_VDD_Xadder1/MpMos3_s N_VDD_Xadder1/MpA1_s N_VDD_Xadder1/MPA2_s
++ N_VDD_Xadder1/MpMos1_s N_VDD_Xadder4/MpB01_s N_VDD_Xadder1/MpB01_s
++ N_VDD_Xadder4/MpA03_s N_VDD_Xadder1/MpA03_s N_VDD_Xadder4/MpB03_s
++ N_VDD_Xadder1/MpB03_s N_VDD_Xadder4/MpB02_s N_VDD_Xadder1/MpB02_s
++ N_VDD_Xadder4/MpA02_s N_VDD_Xadder1/MpA02_s N_VDD_Xadder4/MpB333_s
++ N_VDD_Xadder1/MpB333_s N_VDD_Xadder4/MpMos111_s N_VDD_Xadder4/MPA222_s
++ N_VDD_Xadder4/MpA111_s N_VDD_Xadder4/MpMos333_s N_VDD_Xadder1/MpMos333_s
++ N_VDD_Xadder1/MpA111_s N_VDD_Xadder1/MPA222_s N_VDD_Xadder1/MpMos111_s
++ N_VDD_Xadder4/MpA333_s N_VDD_Xadder4/MpC333_s N_VDD_Xadder1/MpA333_s
++ N_VDD_Xadder1/MpC333_s N_VDD_Xadder3/MpMos111_s N_VDD_Xadder3/MPA222_s
++ N_VDD_Xadder3/MpA111_s N_VDD_Xadder3/MpMos333_s N_VDD_Xadder2/MpMos333_s
++ N_VDD_Xadder2/MpA111_s N_VDD_Xadder2/MPA222_s N_VDD_Xadder2/MpMos111_s
++ N_VDD_Xadder3/MpC333_s N_VDD_Xadder3/MpA333_s N_VDD_Xadder2/MpC333_s
++ N_VDD_Xadder2/MpA333_s N_VDD_Xadder3/MpB333_s N_VDD_Xadder2/MpB333_s
++ N_VDD_Xadder3/MpA02_s N_VDD_Xadder2/MpA02_s N_VDD_Xadder3/MpB02_s
++ N_VDD_Xadder2/MpB02_s N_VDD_Xadder3/MpB03_s N_VDD_Xadder2/MpB03_s
++ N_VDD_Xadder3/MpA03_s N_VDD_Xadder2/MpA03_s N_VDD_Xadder3/MpB01_s
++ N_VDD_Xadder2/MpB01_s N_VDD_Xadder3/MpMos1_s N_VDD_Xadder3/MPA2_s
++ N_VDD_Xadder3/MpA1_s N_VDD_Xadder3/MpMos3_s N_VDD_Xadder2/MpMos3_s
++ N_VDD_Xadder2/MpA1_s N_VDD_Xadder2/MPA2_s N_VDD_Xadder2/MpMos1_s
++ N_VDD_Xadder3/MpA01_s N_VDD_Xadder2/MpA01_s VDD PM_RCA%VDD
+x_PM_RCA%XADDER4/BCO N_XADDER4/BCO_Xadder4/MpB03_d N_XADDER4/BCO_Xadder4/MpA03_d
++ N_XADDER4/BCO_Xadder4/MnA033_d N_XADDER4/BCO_Xadder4/MnC3333_g
++ N_XADDER4/BCO_Xadder4/MpC333_g PM_RCA%XADDER4/BCO
+x_PM_RCA%XADDER1/BCO N_XADDER1/BCO_Xadder1/MpB03_d N_XADDER1/BCO_Xadder1/MpA03_d
++ N_XADDER1/BCO_Xadder1/MnA033_d N_XADDER1/BCO_Xadder1/MpC333_g
++ N_XADDER1/BCO_Xadder1/MnC3333_g PM_RCA%XADDER1/BCO
+x_PM_RCA%XADDER4/ABO N_XADDER4/ABO_Xadder4/MpB01_d N_XADDER4/ABO_Xadder4/MpA01_d
++ N_XADDER4/ABO_Xadder4/MnA011_d N_XADDER4/ABO_Xadder4/MnA3333_g
++ N_XADDER4/ABO_Xadder4/MpA333_g PM_RCA%XADDER4/ABO
+x_PM_RCA%XADDER1/ABO N_XADDER1/ABO_Xadder1/MpB01_d N_XADDER1/ABO_Xadder1/MpA01_d
++ N_XADDER1/ABO_Xadder1/MnA011_d N_XADDER1/ABO_Xadder1/MpA333_g
++ N_XADDER1/ABO_Xadder1/MnA3333_g PM_RCA%XADDER1/ABO
+x_PM_RCA%C2 N_C2_Xadder2/MpA333_d N_C2_Xadder2/MpB333_d N_C2_Xadder2/MpC333_d
++ N_C2_Xadder2/MnA3333_d N_C2_Xadder3/MpB111_g N_C2_Xadder3/MnB1111_g
++ N_C2_Xadder3/MpMos333_g N_C2_Xadder3/MnMos444_g N_C2_Xadder3/MnB022_g
++ N_C2_Xadder3/MpB02_g N_C2_Xadder3/MnB033_g N_C2_Xadder3/MpB03_g PM_RCA%C2
+x_PM_RCA%C1 N_C1_Xadder1/MpC333_d N_C1_Xadder1/MpB333_d N_C1_Xadder1/MpA333_d
++ N_C1_Xadder1/MnA3333_d N_C1_Xadder2/MpMos333_g N_C1_Xadder2/MpB111_g
++ N_C1_Xadder2/MnB1111_g N_C1_Xadder2/MnMos444_g N_C1_Xadder2/MpB02_g
++ N_C1_Xadder2/MnB022_g N_C1_Xadder2/MpB03_g N_C1_Xadder2/MnB033_g PM_RCA%C1
+x_PM_RCA%XADDER3/ACO N_XADDER3/ACO_Xadder3/MpB02_d N_XADDER3/ACO_Xadder3/MpA02_d
++ N_XADDER3/ACO_Xadder3/MnB022_d N_XADDER3/ACO_Xadder3/MnB3333_g
++ N_XADDER3/ACO_Xadder3/MpB333_g PM_RCA%XADDER3/ACO
+x_PM_RCA%XADDER2/ACO N_XADDER2/ACO_Xadder2/MpB02_d N_XADDER2/ACO_Xadder2/MpA02_d
++ N_XADDER2/ACO_Xadder2/MnB022_d N_XADDER2/ACO_Xadder2/MpB333_g
++ N_XADDER2/ACO_Xadder2/MnB3333_g PM_RCA%XADDER2/ACO
+x_PM_RCA%XADDER3/TS N_XADDER3/TS_Xadder3/MpB1_d N_XADDER3/TS_Xadder3/MpB2_d
++ N_XADDER3/TS_Xadder3/MnB22_d N_XADDER3/TS_Xadder3/MnA11_d
++ N_XADDER3/TS_Xadder3/MpMos111_g N_XADDER3/TS_Xadder3/MpA111_g
++ N_XADDER3/TS_Xadder3/MnMos222_g N_XADDER3/TS_Xadder3/MnA1111_g
++ PM_RCA%XADDER3/TS
+x_PM_RCA%XADDER2/TS N_XADDER2/TS_Xadder2/MpB2_d N_XADDER2/TS_Xadder2/MpB1_d
++ N_XADDER2/TS_Xadder2/MnA11_d N_XADDER2/TS_Xadder2/MnB22_d
++ N_XADDER2/TS_Xadder2/MpA111_g N_XADDER2/TS_Xadder2/MpMos111_g
++ N_XADDER2/TS_Xadder2/MnMos222_g N_XADDER2/TS_Xadder2/MnA1111_g
++ PM_RCA%XADDER2/TS
+x_PM_RCA%A2 N_A2_Xadder3/MnA022_g N_A2_Xadder3/MpA02_g N_A2_Xadder3/MnMos2_g
++ N_A2_Xadder3/MnA11_g N_A2_Xadder3/MpMos1_g N_A2_Xadder3/MpA1_g
++ N_A2_Xadder3/MnA011_g N_A2_Xadder3/MpA01_g A2 PM_RCA%A2
+x_PM_RCA%A1 N_A1_Xadder2/MpA02_g N_A1_Xadder2/MnA022_g N_A1_Xadder2/MnA11_g
++ N_A1_Xadder2/MnMos2_g N_A1_Xadder2/MpMos1_g N_A1_Xadder2/MpA1_g
++ N_A1_Xadder2/MpA01_g N_A1_Xadder2/MnA011_g A1 PM_RCA%A1
+x_PM_RCA%XADDER3/BCO N_XADDER3/BCO_Xadder3/MpA03_d N_XADDER3/BCO_Xadder3/MpB03_d
++ N_XADDER3/BCO_Xadder3/MnA033_d N_XADDER3/BCO_Xadder3/MnC3333_g
++ N_XADDER3/BCO_Xadder3/MpC333_g PM_RCA%XADDER3/BCO
+x_PM_RCA%XADDER2/BCO N_XADDER2/BCO_Xadder2/MpA03_d N_XADDER2/BCO_Xadder2/MpB03_d
++ N_XADDER2/BCO_Xadder2/MnA033_d N_XADDER2/BCO_Xadder2/MpC333_g
++ N_XADDER2/BCO_Xadder2/MnC3333_g PM_RCA%XADDER2/BCO
+x_PM_RCA%B2 N_B2_Xadder3/MnB11_g N_B2_Xadder3/MpB1_g N_B2_Xadder3/MnMos4_g
++ N_B2_Xadder3/MnA033_g N_B2_Xadder3/MpA03_g N_B2_Xadder3/MpMos3_g
++ N_B2_Xadder3/MnB011_g N_B2_Xadder3/MpB01_g B2 PM_RCA%B2
+x_PM_RCA%B1 N_B1_Xadder2/MnMos4_g N_B1_Xadder2/MnB11_g N_B1_Xadder2/MpB1_g
++ N_B1_Xadder2/MpA03_g N_B1_Xadder2/MnA033_g N_B1_Xadder2/MpMos3_g
++ N_B1_Xadder2/MpB01_g N_B1_Xadder2/MnB011_g B1 PM_RCA%B1
+x_PM_RCA%XADDER3/ABO N_XADDER3/ABO_Xadder3/MpA01_d N_XADDER3/ABO_Xadder3/MpB01_d
++ N_XADDER3/ABO_Xadder3/MnA011_d N_XADDER3/ABO_Xadder3/MnA3333_g
++ N_XADDER3/ABO_Xadder3/MpA333_g PM_RCA%XADDER3/ABO
+x_PM_RCA%XADDER2/ABO N_XADDER2/ABO_Xadder2/MpA01_d N_XADDER2/ABO_Xadder2/MpB01_d
++ N_XADDER2/ABO_Xadder2/MnA011_d N_XADDER2/ABO_Xadder2/MpA333_g
++ N_XADDER2/ABO_Xadder2/MnA3333_g PM_RCA%XADDER2/ABO
+x_PM_RCA%noxref_31 N_noxref_31_Xadder4/MPA2_d N_noxref_31_Xadder4/MpB1_s
++ PM_RCA%noxref_31
+x_PM_RCA%noxref_32 N_noxref_32_Xadder4/MpB2_s N_noxref_32_Xadder4/MpA1_d
++ PM_RCA%noxref_32
+x_PM_RCA%noxref_33 N_noxref_33_Xadder1/MpA1_d N_noxref_33_Xadder1/MpB2_s
++ PM_RCA%noxref_33
+x_PM_RCA%noxref_34 N_noxref_34_Xadder1/MpB1_s N_noxref_34_Xadder1/MPA2_d
++ PM_RCA%noxref_34
+x_PM_RCA%XADDER4/AS N_XADDER4/AS_Xadder4/MnB011_d N_XADDER4/AS_Xadder4/MnA011_s
++ PM_RCA%XADDER4/AS
+x_PM_RCA%XADDER1/AS N_XADDER1/AS_Xadder1/MnB011_d N_XADDER1/AS_Xadder1/MnA011_s
++ PM_RCA%XADDER1/AS
+x_PM_RCA%XADDER4/A2 N_XADDER4/A2_Xadder4/MpMos1_d N_XADDER4/A2_Xadder4/MnMos2_d
++ N_XADDER4/A2_Xadder4/MPA2_g N_XADDER4/A2_Xadder4/MnA22_g PM_RCA%XADDER4/A2
+x_PM_RCA%XADDER1/A2 N_XADDER1/A2_Xadder1/MpMos1_d N_XADDER1/A2_Xadder1/MnMos2_d
++ N_XADDER1/A2_Xadder1/MPA2_g N_XADDER1/A2_Xadder1/MnA22_g PM_RCA%XADDER1/A2
+x_PM_RCA%XADDER4/B2 N_XADDER4/B2_Xadder4/MpMos3_d N_XADDER4/B2_Xadder4/MnMos4_d
++ N_XADDER4/B2_Xadder4/MpB2_g N_XADDER4/B2_Xadder4/MnB22_g PM_RCA%XADDER4/B2
+x_PM_RCA%XADDER1/B2 N_XADDER1/B2_Xadder1/MpMos3_d N_XADDER1/B2_Xadder1/MnMos4_d
++ N_XADDER1/B2_Xadder1/MpB2_g N_XADDER1/B2_Xadder1/MnB22_g PM_RCA%XADDER1/B2
+x_PM_RCA%XADDER4/AS02 N_XADDER4/AS02_Xadder4/MnB033_d
++ N_XADDER4/AS02_Xadder4/MnA033_s PM_RCA%XADDER4/AS02
+x_PM_RCA%XADDER1/AS02 N_XADDER1/AS02_Xadder1/MnB033_d
++ N_XADDER1/AS02_Xadder1/MnA033_s PM_RCA%XADDER1/AS02
+x_PM_RCA%noxref_43 N_noxref_43_Xadder4/MnA22_d N_noxref_43_Xadder4/MnB11_d
++ N_noxref_43_Xadder4/MnB22_s N_noxref_43_Xadder4/MnA11_s PM_RCA%noxref_43
+x_PM_RCA%noxref_44 N_noxref_44_Xadder1/MnA11_s N_noxref_44_Xadder1/MnB22_s
++ N_noxref_44_Xadder1/MnB11_d N_noxref_44_Xadder1/MnA22_d PM_RCA%noxref_44
+x_PM_RCA%XADDER4/AS01 N_XADDER4/AS01_Xadder4/MnA022_d
++ N_XADDER4/AS01_Xadder4/MnB022_s PM_RCA%XADDER4/AS01
+x_PM_RCA%XADDER1/AS01 N_XADDER1/AS01_Xadder1/MnA022_d
++ N_XADDER1/AS01_Xadder1/MnB022_s PM_RCA%XADDER1/AS01
+x_PM_RCA%noxref_47 N_noxref_47_Xadder4/MnA2222_d N_noxref_47_Xadder4/MnB1111_d
++ N_noxref_47_Xadder4/MnB2222_s N_noxref_47_Xadder4/MnA1111_s PM_RCA%noxref_47
+x_PM_RCA%noxref_48 N_noxref_48_Xadder1/MnA1111_s N_noxref_48_Xadder1/MnB2222_s
++ N_noxref_48_Xadder1/MnB1111_d N_noxref_48_Xadder1/MnA2222_d PM_RCA%noxref_48
+x_PM_RCA%S3 S3 N_S3_Xadder4/MpB111_d N_S3_Xadder4/MpB222_d
++ N_S3_Xadder4/MnB2222_d N_S3_Xadder4/MnA1111_d PM_RCA%S3
+x_PM_RCA%S0 S0 N_S0_Xadder1/MpB222_d N_S0_Xadder1/MpB111_d
++ N_S0_Xadder1/MnA1111_d N_S0_Xadder1/MnB2222_d PM_RCA%S0
+x_PM_RCA%XADDER4/B22 N_XADDER4/B22_Xadder4/MpMos333_d
++ N_XADDER4/B22_Xadder4/MnMos444_d N_XADDER4/B22_Xadder4/MnB2222_g
++ N_XADDER4/B22_Xadder4/MpB222_g PM_RCA%XADDER4/B22
+x_PM_RCA%XADDER4/AS002 N_XADDER4/AS002_Xadder4/MnC3333_s
++ N_XADDER4/AS002_Xadder4/MnB3333_d PM_RCA%XADDER4/AS002
+x_PM_RCA%XADDER1/AS002 N_XADDER1/AS002_Xadder1/MnC3333_s
++ N_XADDER1/AS002_Xadder1/MnB3333_d PM_RCA%XADDER1/AS002
+x_PM_RCA%XADDER1/B22 N_XADDER1/B22_Xadder1/MpMos333_d
++ N_XADDER1/B22_Xadder1/MnMos444_d N_XADDER1/B22_Xadder1/MnB2222_g
++ N_XADDER1/B22_Xadder1/MpB222_g PM_RCA%XADDER1/B22
+x_PM_RCA%XADDER4/A22 N_XADDER4/A22_Xadder4/MpMos111_d
++ N_XADDER4/A22_Xadder4/MnMos222_d N_XADDER4/A22_Xadder4/MnA2222_g
++ N_XADDER4/A22_Xadder4/MPA222_g PM_RCA%XADDER4/A22
+x_PM_RCA%XADDER1/A22 N_XADDER1/A22_Xadder1/MpMos111_d
++ N_XADDER1/A22_Xadder1/MnMos222_d N_XADDER1/A22_Xadder1/MnA2222_g
++ N_XADDER1/A22_Xadder1/MPA222_g PM_RCA%XADDER1/A22
+x_PM_RCA%noxref_57 N_noxref_57_Xadder4/MPA222_d N_noxref_57_Xadder4/MpB111_s
++ PM_RCA%noxref_57
+x_PM_RCA%noxref_58 N_noxref_58_Xadder4/MpB222_s N_noxref_58_Xadder4/MpA111_d
++ PM_RCA%noxref_58
+x_PM_RCA%noxref_59 N_noxref_59_Xadder1/MpA111_d N_noxref_59_Xadder1/MpB222_s
++ PM_RCA%noxref_59
+x_PM_RCA%noxref_60 N_noxref_60_Xadder1/MpB111_s N_noxref_60_Xadder1/MPA222_d
++ PM_RCA%noxref_60
+x_PM_RCA%XADDER4/AS001 N_XADDER4/AS001_Xadder4/MnA3333_s
++ N_XADDER4/AS001_Xadder4/MnC3333_d PM_RCA%XADDER4/AS001
+x_PM_RCA%XADDER1/AS001 N_XADDER1/AS001_Xadder1/MnA3333_s
++ N_XADDER1/AS001_Xadder1/MnC3333_d PM_RCA%XADDER1/AS001
+x_PM_RCA%C4 C4 N_C4_Xadder4/MpC333_d N_C4_Xadder4/MpB333_d N_C4_Xadder4/MpA333_d
++ N_C4_Xadder4/MnA3333_d PM_RCA%C4
+x_PM_RCA%noxref_64 N_noxref_64_Xadder3/MPA222_d N_noxref_64_Xadder3/MpB111_s
++ PM_RCA%noxref_64
+x_PM_RCA%noxref_65 N_noxref_65_Xadder3/MpB222_s N_noxref_65_Xadder3/MpA111_d
++ PM_RCA%noxref_65
+x_PM_RCA%noxref_66 N_noxref_66_Xadder2/MpA111_d N_noxref_66_Xadder2/MpB222_s
++ PM_RCA%noxref_66
+x_PM_RCA%noxref_67 N_noxref_67_Xadder2/MpB111_s N_noxref_67_Xadder2/MPA222_d
++ PM_RCA%noxref_67
+x_PM_RCA%XADDER3/AS001 N_XADDER3/AS001_Xadder3/MnC3333_d
++ N_XADDER3/AS001_Xadder3/MnA3333_s PM_RCA%XADDER3/AS001
+x_PM_RCA%XADDER2/AS001 N_XADDER2/AS001_Xadder2/MnC3333_d
++ N_XADDER2/AS001_Xadder2/MnA3333_s PM_RCA%XADDER2/AS001
+x_PM_RCA%XADDER3/AS002 N_XADDER3/AS002_Xadder3/MnB3333_d
++ N_XADDER3/AS002_Xadder3/MnC3333_s PM_RCA%XADDER3/AS002
+x_PM_RCA%XADDER2/AS002 N_XADDER2/AS002_Xadder2/MnB3333_d
++ N_XADDER2/AS002_Xadder2/MnC3333_s PM_RCA%XADDER2/AS002
+x_PM_RCA%XADDER3/A22 N_XADDER3/A22_Xadder3/MpMos111_d
++ N_XADDER3/A22_Xadder3/MnMos222_d N_XADDER3/A22_Xadder3/MPA222_g
++ N_XADDER3/A22_Xadder3/MnA2222_g PM_RCA%XADDER3/A22
+x_PM_RCA%XADDER2/A22 N_XADDER2/A22_Xadder2/MpMos111_d
++ N_XADDER2/A22_Xadder2/MnMos222_d N_XADDER2/A22_Xadder2/MPA222_g
++ N_XADDER2/A22_Xadder2/MnA2222_g PM_RCA%XADDER2/A22
+x_PM_RCA%XADDER3/B22 N_XADDER3/B22_Xadder3/MpMos333_d
++ N_XADDER3/B22_Xadder3/MnMos444_d N_XADDER3/B22_Xadder3/MpB222_g
++ N_XADDER3/B22_Xadder3/MnB2222_g PM_RCA%XADDER3/B22
+x_PM_RCA%XADDER2/B22 N_XADDER2/B22_Xadder2/MpMos333_d
++ N_XADDER2/B22_Xadder2/MnMos444_d N_XADDER2/B22_Xadder2/MpB222_g
++ N_XADDER2/B22_Xadder2/MnB2222_g PM_RCA%XADDER2/B22
+x_PM_RCA%S2 S2 N_S2_Xadder3/MpB111_d N_S2_Xadder3/MpB222_d
++ N_S2_Xadder3/MnB2222_d N_S2_Xadder3/MnA1111_d PM_RCA%S2
+x_PM_RCA%S1 S1 N_S1_Xadder2/MpB222_d N_S1_Xadder2/MpB111_d
++ N_S1_Xadder2/MnA1111_d N_S1_Xadder2/MnB2222_d PM_RCA%S1
+x_PM_RCA%noxref_78 N_noxref_78_Xadder3/MnA2222_d N_noxref_78_Xadder3/MnB1111_d
++ N_noxref_78_Xadder3/MnB2222_s N_noxref_78_Xadder3/MnA1111_s PM_RCA%noxref_78
+x_PM_RCA%noxref_79 N_noxref_79_Xadder2/MnA1111_s N_noxref_79_Xadder2/MnB2222_s
++ N_noxref_79_Xadder2/MnB1111_d N_noxref_79_Xadder2/MnA2222_d PM_RCA%noxref_79
+x_PM_RCA%XADDER3/AS01 N_XADDER3/AS01_Xadder3/MnB022_s
++ N_XADDER3/AS01_Xadder3/MnA022_d PM_RCA%XADDER3/AS01
+x_PM_RCA%XADDER2/AS01 N_XADDER2/AS01_Xadder2/MnB022_s
++ N_XADDER2/AS01_Xadder2/MnA022_d PM_RCA%XADDER2/AS01
+x_PM_RCA%noxref_82 N_noxref_82_Xadder3/MnA22_d N_noxref_82_Xadder3/MnB11_d
++ N_noxref_82_Xadder3/MnB22_s N_noxref_82_Xadder3/MnA11_s PM_RCA%noxref_82
+x_PM_RCA%noxref_83 N_noxref_83_Xadder2/MnA11_s N_noxref_83_Xadder2/MnB22_s
++ N_noxref_83_Xadder2/MnB11_d N_noxref_83_Xadder2/MnA22_d PM_RCA%noxref_83
+x_PM_RCA%XADDER3/AS02 N_XADDER3/AS02_Xadder3/MnA033_s
++ N_XADDER3/AS02_Xadder3/MnB033_d PM_RCA%XADDER3/AS02
+x_PM_RCA%XADDER2/AS02 N_XADDER2/AS02_Xadder2/MnA033_s
++ N_XADDER2/AS02_Xadder2/MnB033_d PM_RCA%XADDER2/AS02
+x_PM_RCA%XADDER3/B2 N_XADDER3/B2_Xadder3/MpMos3_d N_XADDER3/B2_Xadder3/MnMos4_d
++ N_XADDER3/B2_Xadder3/MnB22_g N_XADDER3/B2_Xadder3/MpB2_g PM_RCA%XADDER3/B2
+x_PM_RCA%XADDER2/B2 N_XADDER2/B2_Xadder2/MpMos3_d N_XADDER2/B2_Xadder2/MnMos4_d
++ N_XADDER2/B2_Xadder2/MnB22_g N_XADDER2/B2_Xadder2/MpB2_g PM_RCA%XADDER2/B2
+x_PM_RCA%XADDER3/A2 N_XADDER3/A2_Xadder3/MpMos1_d N_XADDER3/A2_Xadder3/MnMos2_d
++ N_XADDER3/A2_Xadder3/MnA22_g N_XADDER3/A2_Xadder3/MPA2_g PM_RCA%XADDER3/A2
+x_PM_RCA%XADDER2/A2 N_XADDER2/A2_Xadder2/MpMos1_d N_XADDER2/A2_Xadder2/MnMos2_d
++ N_XADDER2/A2_Xadder2/MnA22_g N_XADDER2/A2_Xadder2/MPA2_g PM_RCA%XADDER2/A2
+x_PM_RCA%XADDER3/AS N_XADDER3/AS_Xadder3/MnA011_s N_XADDER3/AS_Xadder3/MnB011_d
++ PM_RCA%XADDER3/AS
+x_PM_RCA%XADDER2/AS N_XADDER2/AS_Xadder2/MnA011_s N_XADDER2/AS_Xadder2/MnB011_d
++ PM_RCA%XADDER2/AS
+x_PM_RCA%noxref_92 N_noxref_92_Xadder3/MPA2_d N_noxref_92_Xadder3/MpB1_s
++ PM_RCA%noxref_92
+x_PM_RCA%noxref_93 N_noxref_93_Xadder3/MpB2_s N_noxref_93_Xadder3/MpA1_d
++ PM_RCA%noxref_93
+x_PM_RCA%noxref_94 N_noxref_94_Xadder2/MpA1_d N_noxref_94_Xadder2/MpB2_s
++ PM_RCA%noxref_94
+x_PM_RCA%noxref_95 N_noxref_95_Xadder2/MpB1_s N_noxref_95_Xadder2/MPA2_d
++ PM_RCA%noxref_95

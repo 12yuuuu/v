@@ -1,0 +1,27 @@
+* File: nor.pex.netlist
+* Created: Wed May 15 21:44:39 2024
+* Program "Calibre xRC"
+* Version "v2017.4_19.14"
+* 
+.include "nor.pex.netlist.pex"
+.subckt NOR  C D F VDD GND
+* 
+* Y	Y
+* F	F
+* GND	GND
+* VDD	VDD
+* X	X
+MnMos_4 N_GND_MnMos_4_d N_C_MnMos_4_g N_F_MnMos_4_s N_GND_MnMos_4_b N_18
++ L=1.8e-07 W=5e-07 AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+MnMos_3 N_GND_MnMos_3_d N_D_MnMos_3_g N_F_MnMos_3_s N_GND_MnMos_4_b N_18
++ L=1.8e-07 W=5e-07 AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+MpMos_1 N_WIRE_MpMos_1_d N_C_MpMos_1_g N_VDD_MpMos_1_s N_VDD_MpMos_1_b P_18
++ L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+MpMos_2 N_F_MpMos_2_d N_D_MpMos_2_g N_WIRE_MpMos_2_s N_VDD_MpMos_1_b P_18
++ L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+*
+.include "nor.pex.netlist.NOR.pxi"
+*
+.ends
+*
+*

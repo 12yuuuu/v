@@ -1,0 +1,546 @@
+* File: RCA.pex.netlist
+* Created: Fri May 26 23:41:37 2023
+* Program "Calibre xRC"
+* Version "v2017.4_19.14"
+* 
+.include "RCA.pex.netlist.pex"
+.subckt R_adder  GND B3 B0 C0 A3 A0 VDD A2 A1 B2 B1 S3 S0 C4 S2 S1
+* 
+* S1	S1
+* S2	S2
+* C4	C4
+* S0	S0
+* S3	S3
+* B1	B1
+* B2	B2
+* A1	A1
+* A2	A2
+* VDD	VDD
+* A0	A0
+* A3	A3
+* C0	C0
+* B0	B0
+* B3	B3
+* GND	GND
+mXadder4/MnA011 N_XADDER4/ABO_Xadder4/MnA011_d N_A3_Xadder4/MnA011_g
++ N_XADDER4/AS_Xadder4/MnA011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder1/MnA011 N_XADDER1/ABO_Xadder1/MnA011_d N_A0_Xadder1/MnA011_g
++ N_XADDER1/AS_Xadder1/MnA011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder4/MnB011 N_XADDER4/AS_Xadder4/MnB011_d N_B3_Xadder4/MnB011_g
++ N_GND_Xadder4/MnB011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder1/MnB011 N_XADDER1/AS_Xadder1/MnB011_d N_B0_Xadder1/MnB011_g
++ N_GND_Xadder1/MnB011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder4/MnA033 N_XADDER4/BCO_Xadder4/MnA033_d N_B3_Xadder4/MnA033_g
++ N_XADDER4/AS02_Xadder4/MnA033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder1/MnA033 N_XADDER1/BCO_Xadder1/MnA033_d N_B0_Xadder1/MnA033_g
++ N_XADDER1/AS02_Xadder1/MnA033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder4/MnB033 N_XADDER4/AS02_Xadder4/MnB033_d N_C3_Xadder4/MnB033_g
++ N_GND_Xadder4/MnB033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder1/MnB033 N_XADDER1/AS02_Xadder1/MnB033_d N_C0_Xadder1/MnB033_g
++ N_GND_Xadder1/MnB033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder4/MnMos2 N_XADDER4/A2_Xadder4/MnMos2_d N_A3_Xadder4/MnMos2_g
++ N_GND_Xadder4/MnMos2_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder4/MnA22 N_noxref_43_Xadder4/MnA22_d N_XADDER4/A2_Xadder4/MnA22_g
++ N_GND_Xadder4/MnA22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder4/MnB11 N_noxref_43_Xadder4/MnB11_d N_B3_Xadder4/MnB11_g
++ N_GND_Xadder4/MnB11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MnB22 N_XADDER4/TS_Xadder4/MnB22_d N_XADDER4/B2_Xadder4/MnB22_g
++ N_noxref_43_Xadder4/MnB22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MnA11 N_XADDER4/TS_Xadder4/MnA11_d N_A3_Xadder4/MnA11_g
++ N_noxref_43_Xadder4/MnA11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder4/MnMos4 N_XADDER4/B2_Xadder4/MnMos4_d N_B3_Xadder4/MnMos4_g
++ N_GND_Xadder4/MnMos4_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder1/MnMos4 N_XADDER1/B2_Xadder1/MnMos4_d N_B0_Xadder1/MnMos4_g
++ N_GND_Xadder1/MnMos4_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder1/MnA11 N_XADDER1/TS_Xadder1/MnA11_d N_A0_Xadder1/MnA11_g
++ N_noxref_44_Xadder1/MnA11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder1/MnB22 N_XADDER1/TS_Xadder1/MnB22_d N_XADDER1/B2_Xadder1/MnB22_g
++ N_noxref_44_Xadder1/MnB22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MnB11 N_noxref_44_Xadder1/MnB11_d N_B0_Xadder1/MnB11_g
++ N_GND_Xadder1/MnB11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MnA22 N_noxref_44_Xadder1/MnA22_d N_XADDER1/A2_Xadder1/MnA22_g
++ N_GND_Xadder1/MnA22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder1/MnMos2 N_XADDER1/A2_Xadder1/MnMos2_d N_A0_Xadder1/MnMos2_g
++ N_GND_Xadder1/MnMos2_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder4/MnB022 N_XADDER4/ACO_Xadder4/MnB022_d N_C3_Xadder4/MnB022_g
++ N_XADDER4/AS01_Xadder4/MnB022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder1/MnB022 N_XADDER1/ACO_Xadder1/MnB022_d N_C0_Xadder1/MnB022_g
++ N_XADDER1/AS01_Xadder1/MnB022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder4/MnA022 N_XADDER4/AS01_Xadder4/MnA022_d N_A3_Xadder4/MnA022_g
++ N_GND_Xadder4/MnA022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder1/MnA022 N_XADDER1/AS01_Xadder1/MnA022_d N_A0_Xadder1/MnA022_g
++ N_GND_Xadder1/MnA022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder4/MnMos222 N_XADDER4/A22_Xadder4/MnMos222_d
++ N_XADDER4/TS_Xadder4/MnMos222_g N_GND_Xadder4/MnMos222_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13 AS=2.45e-13
++ PD=1.48e-06 PS=1.48e-06
+mXadder4/MnA2222 N_noxref_47_Xadder4/MnA2222_d N_XADDER4/A22_Xadder4/MnA2222_g
++ N_GND_Xadder4/MnA2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder4/MnB1111 N_noxref_47_Xadder4/MnB1111_d N_C3_Xadder4/MnB1111_g
++ N_GND_Xadder4/MnB1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MnB2222 N_S3_Xadder4/MnB2222_d N_XADDER4/B22_Xadder4/MnB2222_g
++ N_noxref_47_Xadder4/MnB2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MnA1111 N_S3_Xadder4/MnA1111_d N_XADDER4/TS_Xadder4/MnA1111_g
++ N_noxref_47_Xadder4/MnA1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder4/MnMos444 N_XADDER4/B22_Xadder4/MnMos444_d N_C3_Xadder4/MnMos444_g
++ N_GND_Xadder4/MnMos444_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder1/MnMos444 N_XADDER1/B22_Xadder1/MnMos444_d N_C0_Xadder1/MnMos444_g
++ N_GND_Xadder1/MnMos444_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder1/MnA1111 N_S0_Xadder1/MnA1111_d N_XADDER1/TS_Xadder1/MnA1111_g
++ N_noxref_48_Xadder1/MnA1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder1/MnB2222 N_S0_Xadder1/MnB2222_d N_XADDER1/B22_Xadder1/MnB2222_g
++ N_noxref_48_Xadder1/MnB2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MnB1111 N_noxref_48_Xadder1/MnB1111_d N_C0_Xadder1/MnB1111_g
++ N_GND_Xadder1/MnB1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MnA2222 N_noxref_48_Xadder1/MnA2222_d N_XADDER1/A22_Xadder1/MnA2222_g
++ N_GND_Xadder1/MnA2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder1/MnMos222 N_XADDER1/A22_Xadder1/MnMos222_d
++ N_XADDER1/TS_Xadder1/MnMos222_g N_GND_Xadder1/MnMos222_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13 AS=2.45e-13
++ PD=1.48e-06 PS=1.48e-06
+mXadder4/MnB3333 N_XADDER4/AS002_Xadder4/MnB3333_d
++ N_XADDER4/ACO_Xadder4/MnB3333_g N_GND_Xadder4/MnB3333_s N_GND_Xadder4/MnA011_b
++ N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder1/MnB3333 N_XADDER1/AS002_Xadder1/MnB3333_d
++ N_XADDER1/ACO_Xadder1/MnB3333_g N_GND_Xadder1/MnB3333_s N_GND_Xadder4/MnA011_b
++ N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder4/MnC3333 N_XADDER4/AS001_Xadder4/MnC3333_d
++ N_XADDER4/BCO_Xadder4/MnC3333_g N_XADDER4/AS002_Xadder4/MnC3333_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=1.275e-13
++ PD=5.1e-07 PS=5.1e-07
+mXadder1/MnC3333 N_XADDER1/AS001_Xadder1/MnC3333_d
++ N_XADDER1/BCO_Xadder1/MnC3333_g N_XADDER1/AS002_Xadder1/MnC3333_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=1.275e-13
++ PD=5.1e-07 PS=5.1e-07
+mXadder4/MnA3333 N_C4_Xadder4/MnA3333_d N_XADDER4/ABO_Xadder4/MnA3333_g
++ N_XADDER4/AS001_Xadder4/MnA3333_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder1/MnA3333 N_C1_Xadder1/MnA3333_d N_XADDER1/ABO_Xadder1/MnA3333_g
++ N_XADDER1/AS001_Xadder1/MnA3333_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder3/MnA3333 N_C3_Xadder3/MnA3333_d N_XADDER3/ABO_Xadder3/MnA3333_g
++ N_XADDER3/AS001_Xadder3/MnA3333_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder2/MnA3333 N_C2_Xadder2/MnA3333_d N_XADDER2/ABO_Xadder2/MnA3333_g
++ N_XADDER2/AS001_Xadder2/MnA3333_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07
++ W=5e-07 AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder3/MnC3333 N_XADDER3/AS001_Xadder3/MnC3333_d
++ N_XADDER3/BCO_Xadder3/MnC3333_g N_XADDER3/AS002_Xadder3/MnC3333_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=1.275e-13
++ PD=5.1e-07 PS=5.1e-07
+mXadder2/MnC3333 N_XADDER2/AS001_Xadder2/MnC3333_d
++ N_XADDER2/BCO_Xadder2/MnC3333_g N_XADDER2/AS002_Xadder2/MnC3333_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=1.275e-13
++ PD=5.1e-07 PS=5.1e-07
+mXadder3/MnB3333 N_XADDER3/AS002_Xadder3/MnB3333_d
++ N_XADDER3/ACO_Xadder3/MnB3333_g N_GND_Xadder3/MnB3333_s N_GND_Xadder4/MnA011_b
++ N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder2/MnB3333 N_XADDER2/AS002_Xadder2/MnB3333_d
++ N_XADDER2/ACO_Xadder2/MnB3333_g N_GND_Xadder2/MnB3333_s N_GND_Xadder4/MnA011_b
++ N_18 L=1.8e-07 W=5e-07 AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder3/MnMos222 N_XADDER3/A22_Xadder3/MnMos222_d
++ N_XADDER3/TS_Xadder3/MnMos222_g N_GND_Xadder3/MnMos222_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13 AS=2.45e-13
++ PD=1.48e-06 PS=1.48e-06
+mXadder3/MnA2222 N_noxref_78_Xadder3/MnA2222_d N_XADDER3/A22_Xadder3/MnA2222_g
++ N_GND_Xadder3/MnA2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder3/MnB1111 N_noxref_78_Xadder3/MnB1111_d N_C2_Xadder3/MnB1111_g
++ N_GND_Xadder3/MnB1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MnB2222 N_S2_Xadder3/MnB2222_d N_XADDER3/B22_Xadder3/MnB2222_g
++ N_noxref_78_Xadder3/MnB2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MnA1111 N_S2_Xadder3/MnA1111_d N_XADDER3/TS_Xadder3/MnA1111_g
++ N_noxref_78_Xadder3/MnA1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder3/MnMos444 N_XADDER3/B22_Xadder3/MnMos444_d N_C2_Xadder3/MnMos444_g
++ N_GND_Xadder3/MnMos444_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder2/MnMos444 N_XADDER2/B22_Xadder2/MnMos444_d N_C1_Xadder2/MnMos444_g
++ N_GND_Xadder2/MnMos444_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder2/MnA1111 N_S1_Xadder2/MnA1111_d N_XADDER2/TS_Xadder2/MnA1111_g
++ N_noxref_79_Xadder2/MnA1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder2/MnB2222 N_S1_Xadder2/MnB2222_d N_XADDER2/B22_Xadder2/MnB2222_g
++ N_noxref_79_Xadder2/MnB2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MnB1111 N_noxref_79_Xadder2/MnB1111_d N_C1_Xadder2/MnB1111_g
++ N_GND_Xadder2/MnB1111_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MnA2222 N_noxref_79_Xadder2/MnA2222_d N_XADDER2/A22_Xadder2/MnA2222_g
++ N_GND_Xadder2/MnA2222_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder2/MnMos222 N_XADDER2/A22_Xadder2/MnMos222_d
++ N_XADDER2/TS_Xadder2/MnMos222_g N_GND_Xadder2/MnMos222_s
++ N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13 AS=2.45e-13
++ PD=1.48e-06 PS=1.48e-06
+mXadder3/MnA022 N_XADDER3/AS01_Xadder3/MnA022_d N_A2_Xadder3/MnA022_g
++ N_GND_Xadder3/MnA022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder2/MnA022 N_XADDER2/AS01_Xadder2/MnA022_d N_A1_Xadder2/MnA022_g
++ N_GND_Xadder2/MnA022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder3/MnB022 N_XADDER3/ACO_Xadder3/MnB022_d N_C2_Xadder3/MnB022_g
++ N_XADDER3/AS01_Xadder3/MnB022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder2/MnB022 N_XADDER2/ACO_Xadder2/MnB022_d N_C1_Xadder2/MnB022_g
++ N_XADDER2/AS01_Xadder2/MnB022_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder3/MnMos2 N_XADDER3/A2_Xadder3/MnMos2_d N_A2_Xadder3/MnMos2_g
++ N_GND_Xadder3/MnMos2_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder3/MnA22 N_noxref_82_Xadder3/MnA22_d N_XADDER3/A2_Xadder3/MnA22_g
++ N_GND_Xadder3/MnA22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder3/MnB11 N_noxref_82_Xadder3/MnB11_d N_B2_Xadder3/MnB11_g
++ N_GND_Xadder3/MnB11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MnB22 N_XADDER3/TS_Xadder3/MnB22_d N_XADDER3/B2_Xadder3/MnB22_g
++ N_noxref_82_Xadder3/MnB22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MnA11 N_XADDER3/TS_Xadder3/MnA11_d N_A2_Xadder3/MnA11_g
++ N_noxref_82_Xadder3/MnA11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder3/MnMos4 N_XADDER3/B2_Xadder3/MnMos4_d N_B2_Xadder3/MnMos4_g
++ N_GND_Xadder3/MnMos4_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder2/MnMos4 N_XADDER2/B2_Xadder2/MnMos4_d N_B1_Xadder2/MnMos4_g
++ N_GND_Xadder2/MnMos4_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder2/MnA11 N_XADDER2/TS_Xadder2/MnA11_d N_A1_Xadder2/MnA11_g
++ N_noxref_83_Xadder2/MnA11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder2/MnB22 N_XADDER2/TS_Xadder2/MnB22_d N_XADDER2/B2_Xadder2/MnB22_g
++ N_noxref_83_Xadder2/MnB22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MnB11 N_noxref_83_Xadder2/MnB11_d N_B1_Xadder2/MnB11_g
++ N_GND_Xadder2/MnB11_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MnA22 N_noxref_83_Xadder2/MnA22_d N_XADDER2/A2_Xadder2/MnA22_g
++ N_GND_Xadder2/MnA22_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder2/MnMos2 N_XADDER2/A2_Xadder2/MnMos2_d N_A1_Xadder2/MnMos2_g
++ N_GND_Xadder2/MnMos2_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+mXadder3/MnB033 N_XADDER3/AS02_Xadder3/MnB033_d N_C2_Xadder3/MnB033_g
++ N_GND_Xadder3/MnB033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder2/MnB033 N_XADDER2/AS02_Xadder2/MnB033_d N_C1_Xadder2/MnB033_g
++ N_GND_Xadder2/MnB033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder3/MnA033 N_XADDER3/BCO_Xadder3/MnA033_d N_B2_Xadder3/MnA033_g
++ N_XADDER3/AS02_Xadder3/MnA033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder2/MnA033 N_XADDER2/BCO_Xadder2/MnA033_d N_B1_Xadder2/MnA033_g
++ N_XADDER2/AS02_Xadder2/MnA033_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder3/MnB011 N_XADDER3/AS_Xadder3/MnB011_d N_B2_Xadder3/MnB011_g
++ N_GND_Xadder3/MnB011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder2/MnB011 N_XADDER2/AS_Xadder2/MnB011_d N_B1_Xadder2/MnB011_g
++ N_GND_Xadder2/MnB011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+mXadder3/MnA011 N_XADDER3/ABO_Xadder3/MnA011_d N_A2_Xadder3/MnA011_g
++ N_XADDER3/AS_Xadder3/MnA011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder2/MnA011 N_XADDER2/ABO_Xadder2/MnA011_d N_A1_Xadder2/MnA011_g
++ N_XADDER2/AS_Xadder2/MnA011_s N_GND_Xadder4/MnA011_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+mXadder4/MpMos1 N_XADDER4/A2_Xadder4/MpMos1_d N_A3_Xadder4/MpMos1_g
++ N_VDD_Xadder4/MpMos1_s N_VDD_Xadder4/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder4/MPA2 N_noxref_31_Xadder4/MPA2_d N_XADDER4/A2_Xadder4/MPA2_g
++ N_VDD_Xadder4/MPA2_s N_VDD_Xadder4/MpMos1_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpB1 N_XADDER4/TS_Xadder4/MpB1_d N_B3_Xadder4/MpB1_g
++ N_noxref_31_Xadder4/MpB1_s N_VDD_Xadder4/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MpB2 N_XADDER4/TS_Xadder4/MpB2_d N_XADDER4/B2_Xadder4/MpB2_g
++ N_noxref_32_Xadder4/MpB2_s N_VDD_Xadder4/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MpA1 N_noxref_32_Xadder4/MpA1_d N_A3_Xadder4/MpA1_g
++ N_VDD_Xadder4/MpA1_s N_VDD_Xadder4/MpMos1_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpMos3 N_XADDER4/B2_Xadder4/MpMos3_d N_B3_Xadder4/MpMos3_g
++ N_VDD_Xadder4/MpMos3_s N_VDD_Xadder4/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder1/MpMos3 N_XADDER1/B2_Xadder1/MpMos3_d N_B0_Xadder1/MpMos3_g
++ N_VDD_Xadder1/MpMos3_s N_VDD_Xadder1/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder1/MpA1 N_noxref_33_Xadder1/MpA1_d N_A0_Xadder1/MpA1_g
++ N_VDD_Xadder1/MpA1_s N_VDD_Xadder1/MpMos3_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpB2 N_XADDER1/TS_Xadder1/MpB2_d N_XADDER1/B2_Xadder1/MpB2_g
++ N_noxref_33_Xadder1/MpB2_s N_VDD_Xadder1/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MpB1 N_XADDER1/TS_Xadder1/MpB1_d N_B0_Xadder1/MpB1_g
++ N_noxref_34_Xadder1/MpB1_s N_VDD_Xadder1/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MPA2 N_noxref_34_Xadder1/MPA2_d N_XADDER1/A2_Xadder1/MPA2_g
++ N_VDD_Xadder1/MPA2_s N_VDD_Xadder1/MpMos3_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpMos1 N_XADDER1/A2_Xadder1/MpMos1_d N_A0_Xadder1/MpMos1_g
++ N_VDD_Xadder1/MpMos1_s N_VDD_Xadder1/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder4/MpA01 N_XADDER4/ABO_Xadder4/MpA01_d N_A3_Xadder4/MpA01_g
++ N_VDD_Xadder4/MpA01_s N_VDD_Xadder4/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpA01 N_XADDER1/ABO_Xadder1/MpA01_d N_A0_Xadder1/MpA01_g
++ N_VDD_Xadder1/MpA01_s N_VDD_Xadder1/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpB01 N_XADDER4/ABO_Xadder4/MpB01_d N_B3_Xadder4/MpB01_g
++ N_VDD_Xadder4/MpB01_s N_VDD_Xadder4/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpB01 N_XADDER1/ABO_Xadder1/MpB01_d N_B0_Xadder1/MpB01_g
++ N_VDD_Xadder1/MpB01_s N_VDD_Xadder1/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpA03 N_XADDER4/BCO_Xadder4/MpA03_d N_B3_Xadder4/MpA03_g
++ N_VDD_Xadder4/MpA03_s N_VDD_Xadder4/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpA03 N_XADDER1/BCO_Xadder1/MpA03_d N_B0_Xadder1/MpA03_g
++ N_VDD_Xadder1/MpA03_s N_VDD_Xadder1/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpB03 N_XADDER4/BCO_Xadder4/MpB03_d N_C3_Xadder4/MpB03_g
++ N_VDD_Xadder4/MpB03_s N_VDD_Xadder4/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpB03 N_XADDER1/BCO_Xadder1/MpB03_d N_C0_Xadder1/MpB03_g
++ N_VDD_Xadder1/MpB03_s N_VDD_Xadder1/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpB02 N_XADDER4/ACO_Xadder4/MpB02_d N_C3_Xadder4/MpB02_g
++ N_VDD_Xadder4/MpB02_s N_VDD_Xadder4/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpB02 N_XADDER1/ACO_Xadder1/MpB02_d N_C0_Xadder1/MpB02_g
++ N_VDD_Xadder1/MpB02_s N_VDD_Xadder1/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpA02 N_XADDER4/ACO_Xadder4/MpA02_d N_A3_Xadder4/MpA02_g
++ N_VDD_Xadder4/MpA02_s N_VDD_Xadder4/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpA02 N_XADDER1/ACO_Xadder1/MpA02_d N_A0_Xadder1/MpA02_g
++ N_VDD_Xadder1/MpA02_s N_VDD_Xadder1/MpA01_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpB333 N_C4_Xadder4/MpB333_d N_XADDER4/ACO_Xadder4/MpB333_g
++ N_VDD_Xadder4/MpB333_s N_VDD_Xadder4/MpB333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpB333 N_C1_Xadder1/MpB333_d N_XADDER1/ACO_Xadder1/MpB333_g
++ N_VDD_Xadder1/MpB333_s N_VDD_Xadder4/MpB333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpC333 N_C4_Xadder4/MpC333_d N_XADDER4/BCO_Xadder4/MpC333_g
++ N_VDD_Xadder4/MpC333_s N_VDD_Xadder4/MpB333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MpC333 N_C1_Xadder1/MpC333_d N_XADDER1/BCO_Xadder1/MpC333_g
++ N_VDD_Xadder1/MpC333_s N_VDD_Xadder4/MpB333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MpMos111 N_XADDER4/A22_Xadder4/MpMos111_d
++ N_XADDER4/TS_Xadder4/MpMos111_g N_VDD_Xadder4/MpMos111_s
++ N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13
++ PD=1.98e-06 PS=1.98e-06
+mXadder4/MPA222 N_noxref_57_Xadder4/MPA222_d N_XADDER4/A22_Xadder4/MPA222_g
++ N_VDD_Xadder4/MPA222_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpB111 N_S3_Xadder4/MpB111_d N_C3_Xadder4/MpB111_g
++ N_noxref_57_Xadder4/MpB111_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MpB222 N_S3_Xadder4/MpB222_d N_XADDER4/B22_Xadder4/MpB222_g
++ N_noxref_58_Xadder4/MpB222_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder4/MpA111 N_noxref_58_Xadder4/MpA111_d N_XADDER4/TS_Xadder4/MpA111_g
++ N_VDD_Xadder4/MpA111_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder4/MpMos333 N_XADDER4/B22_Xadder4/MpMos333_d N_C3_Xadder4/MpMos333_g
++ N_VDD_Xadder4/MpMos333_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder1/MpMos333 N_XADDER1/B22_Xadder1/MpMos333_d N_C0_Xadder1/MpMos333_g
++ N_VDD_Xadder1/MpMos333_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder1/MpA111 N_noxref_59_Xadder1/MpA111_d N_XADDER1/TS_Xadder1/MpA111_g
++ N_VDD_Xadder1/MpA111_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpB222 N_S0_Xadder1/MpB222_d N_XADDER1/B22_Xadder1/MpB222_g
++ N_noxref_59_Xadder1/MpB222_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MpB111 N_S0_Xadder1/MpB111_d N_C0_Xadder1/MpB111_g
++ N_noxref_60_Xadder1/MpB111_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder1/MPA222 N_noxref_60_Xadder1/MPA222_d N_XADDER1/A22_Xadder1/MPA222_g
++ N_VDD_Xadder1/MPA222_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder1/MpMos111 N_XADDER1/A22_Xadder1/MpMos111_d
++ N_XADDER1/TS_Xadder1/MpMos111_g N_VDD_Xadder1/MpMos111_s
++ N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13
++ PD=1.98e-06 PS=1.98e-06
+mXadder4/MpA333 N_C4_Xadder4/MpA333_d N_XADDER4/ABO_Xadder4/MpA333_g
++ N_VDD_Xadder4/MpA333_s N_VDD_Xadder4/MpB333_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=2.55e-13 PD=1.98e-06 PS=5.1e-07
+mXadder1/MpA333 N_C1_Xadder1/MpA333_d N_XADDER1/ABO_Xadder1/MpA333_g
++ N_VDD_Xadder1/MpA333_s N_VDD_Xadder4/MpB333_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=2.55e-13 PD=1.98e-06 PS=5.1e-07
+mXadder3/MpMos111 N_XADDER3/A22_Xadder3/MpMos111_d
++ N_XADDER3/TS_Xadder3/MpMos111_g N_VDD_Xadder3/MpMos111_s
++ N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13
++ PD=1.98e-06 PS=1.98e-06
+mXadder3/MPA222 N_noxref_64_Xadder3/MPA222_d N_XADDER3/A22_Xadder3/MPA222_g
++ N_VDD_Xadder3/MPA222_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpB111 N_S2_Xadder3/MpB111_d N_C2_Xadder3/MpB111_g
++ N_noxref_64_Xadder3/MpB111_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MpB222 N_S2_Xadder3/MpB222_d N_XADDER3/B22_Xadder3/MpB222_g
++ N_noxref_65_Xadder3/MpB222_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MpA111 N_noxref_65_Xadder3/MpA111_d N_XADDER3/TS_Xadder3/MpA111_g
++ N_VDD_Xadder3/MpA111_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpMos333 N_XADDER3/B22_Xadder3/MpMos333_d N_C2_Xadder3/MpMos333_g
++ N_VDD_Xadder3/MpMos333_s N_VDD_Xadder4/MpMos111_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder2/MpMos333 N_XADDER2/B22_Xadder2/MpMos333_d N_C1_Xadder2/MpMos333_g
++ N_VDD_Xadder2/MpMos333_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder2/MpA111 N_noxref_66_Xadder2/MpA111_d N_XADDER2/TS_Xadder2/MpA111_g
++ N_VDD_Xadder2/MpA111_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpB222 N_S1_Xadder2/MpB222_d N_XADDER2/B22_Xadder2/MpB222_g
++ N_noxref_66_Xadder2/MpB222_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MpB111 N_S1_Xadder2/MpB111_d N_C1_Xadder2/MpB111_g
++ N_noxref_67_Xadder2/MpB111_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MPA222 N_noxref_67_Xadder2/MPA222_d N_XADDER2/A22_Xadder2/MPA222_g
++ N_VDD_Xadder2/MPA222_s N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpMos111 N_XADDER2/A22_Xadder2/MpMos111_d
++ N_XADDER2/TS_Xadder2/MpMos111_g N_VDD_Xadder2/MpMos111_s
++ N_VDD_Xadder1/MpMos333_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13 AS=4.9e-13
++ PD=1.98e-06 PS=1.98e-06
+mXadder3/MpA333 N_C3_Xadder3/MpA333_d N_XADDER3/ABO_Xadder3/MpA333_g
++ N_VDD_Xadder3/MpA333_s N_VDD_Xadder3/MpA333_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=2.55e-13 PD=1.98e-06 PS=5.1e-07
+mXadder2/MpA333 N_C2_Xadder2/MpA333_d N_XADDER2/ABO_Xadder2/MpA333_g
++ N_VDD_Xadder2/MpA333_s N_VDD_Xadder3/MpA333_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=2.55e-13 PD=1.98e-06 PS=5.1e-07
+mXadder3/MpC333 N_C3_Xadder3/MpC333_d N_XADDER3/BCO_Xadder3/MpC333_g
++ N_VDD_Xadder3/MpC333_s N_VDD_Xadder3/MpA333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MpC333 N_C2_Xadder2/MpC333_d N_XADDER2/BCO_Xadder2/MpC333_g
++ N_VDD_Xadder2/MpC333_s N_VDD_Xadder3/MpA333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MpB333 N_C3_Xadder3/MpB333_d N_XADDER3/ACO_Xadder3/MpB333_g
++ N_VDD_Xadder3/MpB333_s N_VDD_Xadder3/MpA333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpB333 N_C2_Xadder2/MpB333_d N_XADDER2/ACO_Xadder2/MpB333_g
++ N_VDD_Xadder2/MpB333_s N_VDD_Xadder3/MpA333_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpA02 N_XADDER3/ACO_Xadder3/MpA02_d N_A2_Xadder3/MpA02_g
++ N_VDD_Xadder3/MpA02_s N_VDD_Xadder3/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpA02 N_XADDER2/ACO_Xadder2/MpA02_d N_A1_Xadder2/MpA02_g
++ N_VDD_Xadder2/MpA02_s N_VDD_Xadder2/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpB02 N_XADDER3/ACO_Xadder3/MpB02_d N_C2_Xadder3/MpB02_g
++ N_VDD_Xadder3/MpB02_s N_VDD_Xadder3/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpB02 N_XADDER2/ACO_Xadder2/MpB02_d N_C1_Xadder2/MpB02_g
++ N_VDD_Xadder2/MpB02_s N_VDD_Xadder2/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpB03 N_XADDER3/BCO_Xadder3/MpB03_d N_C2_Xadder3/MpB03_g
++ N_VDD_Xadder3/MpB03_s N_VDD_Xadder3/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpB03 N_XADDER2/BCO_Xadder2/MpB03_d N_C1_Xadder2/MpB03_g
++ N_VDD_Xadder2/MpB03_s N_VDD_Xadder2/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpA03 N_XADDER3/BCO_Xadder3/MpA03_d N_B2_Xadder3/MpA03_g
++ N_VDD_Xadder3/MpA03_s N_VDD_Xadder3/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpA03 N_XADDER2/BCO_Xadder2/MpA03_d N_B1_Xadder2/MpA03_g
++ N_VDD_Xadder2/MpA03_s N_VDD_Xadder2/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpB01 N_XADDER3/ABO_Xadder3/MpB01_d N_B2_Xadder3/MpB01_g
++ N_VDD_Xadder3/MpB01_s N_VDD_Xadder3/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpB01 N_XADDER2/ABO_Xadder2/MpB01_d N_B1_Xadder2/MpB01_g
++ N_VDD_Xadder2/MpB01_s N_VDD_Xadder2/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpMos1 N_XADDER3/A2_Xadder3/MpMos1_d N_A2_Xadder3/MpMos1_g
++ N_VDD_Xadder3/MpMos1_s N_VDD_Xadder3/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder3/MPA2 N_noxref_92_Xadder3/MPA2_d N_XADDER3/A2_Xadder3/MPA2_g
++ N_VDD_Xadder3/MPA2_s N_VDD_Xadder3/MpMos1_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpB1 N_XADDER3/TS_Xadder3/MpB1_d N_B2_Xadder3/MpB1_g
++ N_noxref_92_Xadder3/MpB1_s N_VDD_Xadder3/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MpB2 N_XADDER3/TS_Xadder3/MpB2_d N_XADDER3/B2_Xadder3/MpB2_g
++ N_noxref_93_Xadder3/MpB2_s N_VDD_Xadder3/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder3/MpA1 N_noxref_93_Xadder3/MpA1_d N_A2_Xadder3/MpA1_g
++ N_VDD_Xadder3/MpA1_s N_VDD_Xadder3/MpMos1_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder3/MpMos3 N_XADDER3/B2_Xadder3/MpMos3_d N_B2_Xadder3/MpMos3_g
++ N_VDD_Xadder3/MpMos3_s N_VDD_Xadder3/MpMos1_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder2/MpMos3 N_XADDER2/B2_Xadder2/MpMos3_d N_B1_Xadder2/MpMos3_g
++ N_VDD_Xadder2/MpMos3_s N_VDD_Xadder2/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder2/MpA1 N_noxref_94_Xadder2/MpA1_d N_A1_Xadder2/MpA1_g
++ N_VDD_Xadder2/MpA1_s N_VDD_Xadder2/MpMos3_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpB2 N_XADDER2/TS_Xadder2/MpB2_d N_XADDER2/B2_Xadder2/MpB2_g
++ N_noxref_94_Xadder2/MpB2_s N_VDD_Xadder2/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MpB1 N_XADDER2/TS_Xadder2/MpB1_d N_B1_Xadder2/MpB1_g
++ N_noxref_95_Xadder2/MpB1_s N_VDD_Xadder2/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+mXadder2/MPA2 N_noxref_95_Xadder2/MPA2_d N_XADDER2/A2_Xadder2/MPA2_g
++ N_VDD_Xadder2/MPA2_s N_VDD_Xadder2/MpMos3_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpMos1 N_XADDER2/A2_Xadder2/MpMos1_d N_A1_Xadder2/MpMos1_g
++ N_VDD_Xadder2/MpMos1_s N_VDD_Xadder2/MpMos3_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+mXadder3/MpA01 N_XADDER3/ABO_Xadder3/MpA01_d N_A2_Xadder3/MpA01_g
++ N_VDD_Xadder3/MpA01_s N_VDD_Xadder3/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+mXadder2/MpA01 N_XADDER2/ABO_Xadder2/MpA01_d N_A1_Xadder2/MpA01_g
++ N_VDD_Xadder2/MpA01_s N_VDD_Xadder2/MpA02_b P_18 L=1.8e-07 W=1e-06 AD=2.55e-13
++ AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+*
+.include "RCA.pex.netlist.RCA.pxi"
+*
+.ends
+*
+*
